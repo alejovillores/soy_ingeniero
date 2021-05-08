@@ -27,4 +27,5 @@ function contador() {
 	document.querySelector('.second').innerText = datos[3];
 }
 
-setInterval(contador(), 1000);
+setInterval(() => {contador()},1000)
+
